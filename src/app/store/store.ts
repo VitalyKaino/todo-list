@@ -1,8 +1,9 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-;
+import TodoCardReducer from './reducers/TodoCardSlice';
 
 export const store = configureStore({
   reducer: {
+    TodoCardReducer
   },
 });
 
